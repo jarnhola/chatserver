@@ -46,4 +46,15 @@ public class ChatServer {
         
     }
     
+    public static void sendUserList(){
+  /*      RequestRegisterUserResponse userList = new RequestRegisterUserResponse();
+        for(ServerClientBackEnd temp: clients){
+            userList.setName(temp.getName());
+        }
+        
+        for(ServerClientBackEnd temp: clients){
+            temp.sendMessage(userList);
+        }*/
+    }
+    
 }
